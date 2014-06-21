@@ -1,0 +1,98 @@
+<list>
+    <title>Top 10 books</title>
+    <author>Anupam Kumar</author>
+    <publishdate>1st March, 2014</publishdate>
+    <thumbnail_type>Images</thumbnail_type>
+    <thumbnail_w>28%</thumbnail_w>
+    <items>
+        <item>
+            <rank>1</rank>
+            <thumbnail>http://www.cynicalreviewer.com/events/thumbnails/1.875912notes-from-underground.jpg</thumbnail>
+            <itemname>Notes from the Underground by Fyodor Dostoyevsky</itemname>
+            <description>Notes from Underground is an 1864 novella by Fyodor Dostoyevsky. Notes is considered by many to be the first existentialist novel. It presents itself as an excerpt from the rambling memoirs of a bitter, isolated, unnamed narrator (generally referred to by critics as the Underground Man) who is a retired civil servant living in St. Petersburg. The first part of the story is told in monologue form, or the underground man's diary, and attacks emerging Western philosophy, especially Nikolay Chernyshevsky's What Is to Be Done?. The second part of the book is called "Àpropos of the Wet Snow", and describes certain events that, it seems, are destroying and sometimes renewing the underground man, who acts as a first person, unreliable narrator.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>2</rank>
+            <thumbnail>http://2.bp.blogspot.com/-5jJdDXjM704/T4g-3LPnmTI/AAAAAAAABgo/AgoJ3aTJxlw/s1600/3076999352_d074941646.jpeg</thumbnail>
+            <itemname>The Catcher in the Rye by J. D. Salinger</itemname>
+            <description>The Catcher in the Rye is a 1951 novel by J. D. Salinger. Originally published for adults, it has since become popular with adolescent readers for its themes of teenage angst and alienation. It has been translated into almost all of the world's major languages. Around 250,000 copies are sold each year with total sales of more than 65 million books. The novel's protagonist, Holden Caulfield, has become an icon for teenage rebellion.
+The novel was included on Time's 2005 list of the 100 best English-language novels written since 1923, and it was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. In 2003 it was listed at number 15 on the BBC's survey The Big Read. The novel also deals with complex issues of identity, belonging, connection, and alienation.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>3</rank>
+            <thumbnail>http://img3.etsystatic.com/il_fullxfull.321683483.jpg</thumbnail>
+            <itemname>The Trial by Franz Kafka</itemname>
+            <description>The Trial is a novel written by Franz Kafka in 1914 and 1915 but not published until 1925. One of Kafka's best-known works, it tells the story of a man arrested and prosecuted by a remote, inaccessible authority, with the nature of his crime revealed to neither him nor the reader.
+Like Kafka's other novels, The Trial was never completed, although it does include a chapter which brings the story to an end. Because of this, there are some inconsistencies and discontinuities in narration within the novel, such as disparities in timing.
+After Kafka's death in 1924 his friend and literary executor Max Brod edited the text for publication by Verlag Die Schmiede. The original manuscript is held at the Museum of Modern Literature, Marbach am Neckar, Germany. In 1999, the book was listed in Le Monde's 100 Books of the Century and as No. 2 of the Best German Novels of the Twentieth Century.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>4</rank>
+            <thumbnail>http://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg</thumbnail>
+            <itemname>Brave New World by Aldous Huxley</itemname>
+            <description>Brave New World is a novel written in 1931 by Aldous Huxley and published in 1932. Set in London of AD 2540 (632 A.F. – "After Ford" – in the book), the novel anticipates developments in reproductive technology, sleep-learning, psychological manipulation, and classical conditioning that combine to profoundly change society. Huxley answered this book with a reassessment in an essay, Brave New World Revisited (1958), and with Island (1962), his final novel.
+In 1999, the Modern Library ranked Brave New World fifth on its list of the 100 best English-language novels of the 20th century. In 2003, Robert McCrum writing for The Observer listed Brave New World number 53 in "the top 100 greatest novels of all time", and the novel was listed at number 87 on the BBC's survey The Big Read.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>5</rank>
+            <thumbnail>http://d202m5krfqbpi5.cloudfront.net/books/1359882576l/168668.jpg</thumbnail>
+            <itemname>Catch-22 by Joseph Heller</itemname>
+            <description>Catch-22 is a satirical novel by the American author Joseph Heller. It is set during World War II in from 1942 to 1944 and is frequently cited as one of the great literary works of the twentieth century. It uses a distinctive non-chronological third-person omniscient narration, describing events from different characters' points of view and out of sequence so that the time line develops along with the plot.
+The novel follows Captain John Yossarian, a U.S. Army Air Forces B-25 bombardier. Most of the events in the book occur while the fictional 256th squadron is based on the island of Pianosa, in the Mediterranean Sea west of Italy. The novel looks into the experiences of Yossarian and the other airmen in the camp, and their attempts to keep their sanity in order to fulfill their service requirements, so that they can return home. The phrase "Catch-22", "a problematic situation for which the only solution is denied by a circumstance inherent in the problem or by a rule," has entered the English language.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>6</rank>
+            <thumbnail>http://upload.wikimedia.org/wikipedia/en/6/65/ThingsFallApart.jpg</thumbnail>
+            <itemname>Things Fall Apart by Chinua Achebe</itemname>
+            <description>Things Fall Apart is an English-language novel by Nigerian author Chinua Achebe published in 1958 by William Heinemann Ltd in the UK; in 1962, it was also the first work published in Heinemann's African Writers Series. Things Fall Apart is seen as the archetypal modern African novel in English, one of the first to receive global critical acclaim.
+The novel shows the life of Okonkwo, a leader and local wrestling champion in Umuofia—one of a fictional group of nine villages in Nigeria, inhabited by the Igbo people (in the novel, "Ibo"). It describes his family and personal history, the customs and society of the Igbo, and the influence of British colonialism and Christian missionaries on the Igbo community during the late nineteenth century.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>7</rank>
+            <thumbnail>http://upload.wikimedia.org/wikipedia/en/6/6b/IndiaMillionMutinies.jpg</thumbnail>
+            <itemname>India: A Million Mutinies Now by V.S. Naipaul</itemname>
+            <description>India: A Million Mutinies Now is a nonfiction book by V. S. Naipaul published in 1990. It is a travelogue written during the author's sojourn in his ancestral land — India. It was the third of Naipaul's acclaimed Indian trilogy which includes An Area of Darkness and India: A Wounded Civilization. True to his style, the narration is anecdotal, using examples and specificity in its descriptions.
+Naipaul expresses serious misgivings about Indian attitudes and the Indian way of life. On the other hand Naipaul notes the economic growth and its associated emancipation of the various peoples of India. The title makes an analogy between the emancipation of millions and the Mutiny of 1857.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>8</rank>
+            <thumbnail>http://upload.wikimedia.org/wikipedia/en/4/48/ErnestHemmingway_ForWhomTheBellTolls.jpg</thumbnail>
+            <itemname>For Whom the Bell Tolls by Ernest Hemingway</itemname>
+            <description>For Whom the Bell Tolls is a novel by Ernest Hemingway published in 1940. It tells the story of Robert Jordan, a young American in the International Brigades attached to a republican guerrilla unit during the Spanish Civil War. As a dynamiter, he is assigned to blow up a bridge during an attack on the city of Segovia. Hemingway biographer Jeffrey Meyers writes that the novel is regarded as one of Hemingway's best works, along with The Sun Also Rises, The Old Man and the Sea, and A Farewell to Arms.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>9</rank>
+            <thumbnail>http://2.bp.blogspot.com/-LwXphI0QysA/Uih34_kJ6GI/AAAAAAAAI98/30oLnzgWDW4/s400/Moby+Dick.jpg</thumbnail>
+            <itemname>Moby Dick by Herman Melville</itemname>
+            <description>Moby-Dick; or, The Whale (1851) is the sixth book by American writer Herman Melville. The work is an epic sea story of Captain Ahab's voyage in pursuit of Moby Dick, a great white whale. It initially received mixed reviews and at Melville's death in 1891 was remembered, if at all, as a children's sea adventure, but now is considered one of the Great American Novels and a leading work of American Romanticism.
+The opening line, "Call me Ishmael," is one of the most recognizable opening lines in Western literature. Ishmael then narrates the voyage of the whaleship Pequod, commanded by Captain Ahab. Ahab has one purpose: revenge on Moby Dick, a ferocious, enigmatic white whale which on a previous voyage destroyed Ahab's ship and severed his leg at the knee. The detailed and realistic descriptions of whale hunting and the process of extracting whale oil, as well as life aboard ship among a culturally diverse crew, are mixed with exploration of class and social status, good and evil, and the existence of God.
+Melville uses a wide range of styles and literary devices ranging from lists and catalogs to Shakespearean stage directions, soliloquies, and asides.</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+        <item>
+            <rank>10</rank>
+            <thumbnail>http://www.pdfbooksforfree.com/wp-content/uploads/2013/12/DavidCoppe_0.jpg</thumbnail>
+            <itemname>David Copperfield by Charles Dickens</itemname>
+            <description>David Copperfield is the common name of the eighth novel by Charles Dickens, first published as a novel in 1850. Its full title is The Personal History, Adventures, Experience and Observation of David Copperfield the Younger of Blunderstone Rookery (Which He Never Meant to Publish on Any Account). Like most of his works, it originally appeared in serial form during the two preceding years. Many elements of the novel follow events in Dickens' own life, and it is probably the most autobiographical of his novels. In the preface to the 1867 edition, Dickens wrote, "like many fond parents, I have in my heart of hearts a favourite child. And his name is David Copperfield."</description>
+            <likes>0</likes>
+            <dislikes>0</dislikes>
+        </item>
+    </items>
+</list>
