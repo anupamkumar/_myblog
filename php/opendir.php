@@ -13,7 +13,7 @@ function getFilesInDir($section)
 				}
 			}
 			closedir($handle);
-			krsort($files);
+			ksort($files);
 			$mf = end($files);
 		}
 		$sortedFiles = array();

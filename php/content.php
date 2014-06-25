@@ -117,18 +117,22 @@ $(function(){
 </script>
 <p hidden id="t" ><?php echo sizeof($sortedFiles); ?></p>
 <p hidden id="sec"  ><?php echo $section; ?></p>
-<p hidden id="cur" >0</p>
+<p hidden id="cur" ><?php echo sizeof($sortedFiles); ?></p>
 <script type="text/javascript">
 	function updateLocation() {
 		var loc = window.location.href;				
-		var loca = loc.split("/");
-		if(document.getElementById("t").innerHTML > loca[loca.length-1]) {
+		var loca = loc.split("/");		
+		if(loca[loca.length-1] == "") {
+			loadAJAX(<?php echo sizeof($sortedFiles); ?>-1);			
+		}		
+		else if((parseInt(document.getElementById("t").innerHTML) > parseInt(loca[loca.length-1]))
+			&& parseInt(loca[loca.length-1]) >=0) {			
 			document.getElementById("cur").innerHTML = loca[loca.length-1];
 			loadAJAX(loca[loca.length-1]);
 		}
 		else {
 			alert("Oops! the article you are looking for does not exist! Showing the latest article.");
-			loadAJAX(0);
+			loadAJAX(<?php echo sizeof($sortedFiles); ?>-1);
 		}
 	}
 	updateLocation();
@@ -137,9 +141,9 @@ $(function(){
 	<div class="content row">	
 		<div id="alertPagerNav">
 		</div>
-		<ul class="pager">
-	  		<li class="previous"><a style="cursor:pointer;" id="prev">&larr; Latest Article</a></li>
-	  		<li class="next"><a style="cursor:pointer;" id="next">Older Article &rarr;</a></li>
+		<ul class="pager">	  		
+	  		<li class="next"><a style="cursor:pointer;" id="prev">Previous Article &rarr;</a></li>
+	  		<li class="previous"><a style="cursor:pointer;" id="next">&larr;Next Article</a></li>
 		</ul>
 	</div>
 </div>
@@ -154,13 +158,11 @@ $(function(){
 		<div class="aside row" >
 			<div class="list-group">
 				<?php 
-				$i=0;
-				foreach($listname as $file)
+				$j=sizeof($sortedFiles)-1;
+				for($i=$j;$i>=0;$i--)
 				{?>
-					<a style="cursor:pointer;" class="list-group-item" onclick="loadAJAX(<?php echo $i ?>)" id="<?php echo $i ?>"><?php echo $file ?></a>
-				<?php 
-					$i++;
-				} ?>
+					<a style="cursor:pointer;" class="list-group-item" onclick="loadAJAX(<?php echo $i ?>)" id="<?php echo $i ?>"><?php echo $listname[$i] ?></a>
+		  <?php }?>
 				
 			</div>
 		</div>

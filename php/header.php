@@ -41,20 +41,20 @@ width: 5em;
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/myhome/0">HOME &rarr; Check out:</a>
+				<a class="navbar-brand" href="/myhome/ ">HOME &rarr; Check out:</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNav">
 				<ul class="nav navbar-nav">
-					<li id='tech'><a href="/tech/0" class="main-nav"  id='n0'>Tech Bubble</a></li>
+					<li id='tech'><a href="/tech/ " class="main-nav"  id='n0'>Tech Bubble</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="tb">Thought Bubble<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li id='thoughts'><a href="/thoughts/0" class="main-nav"  id='n1'>Random Thoughts</a></li>
-							<li id='entertainment'><a href="/entertainment/0" class="main-nav"  id='n2'>Entertainment</a></li>
-							<li id='games'><a href="/games/0" class="main-nav"  id='n3'>Games</a></li>
-							<li id='travel'><a href="/travel/0" class="main-nav"  id='n4'>Travel Blog</a></li>
+							<li id='thoughts'><a href="/thoughts/ " class="main-nav"  id='n1'>Random Thoughts</a></li>
+							<li id='entertainment'><a href="/entertainment/ " class="main-nav"  id='n2'>Entertainment</a></li>
+							<li id='games'><a href="/games/ " class="main-nav"  id='n3'>Games</a></li>
+							<li id='travel'><a href="/travel/ " class="main-nav"  id='n4'>Travel Blog</a></li>
 							<li class="divider"></li>
-							<li id='lists'><a href="/lists/0" class="main-nav"  id='n5'>Lists!</a></li>
+							<li id='lists'><a href="/lists/ " class="main-nav"  id='n5'>Lists!</a></li>
 						</ul>
 					</li>					
 					<li id='stuff'><a href="/stuff" class="main-nav"  id='n6'>Stuff I made</a></li>

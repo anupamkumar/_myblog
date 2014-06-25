@@ -30,8 +30,14 @@
 				redirector(location);
 			}
 			function redirector(location) {
-				if(location[location.length-1] === "") {
-					window.location = "/myhome/0";
+				if( location[location.length-1] != "myhome" && 
+					location[location.length-1] != "tech" && 
+					location[location.length-1] != "thoughts" &&
+					location[location.length-1] != "entertainment" && 
+					location[location.length-1] != "travel" && 
+					location[location.length-1] != "lists" && 
+					location[location.length-1] != "games" ) {
+					window.location = "/myhome/";
 				}
 				else {
 					$.ajax({ url: '/php/content.php?section='+location[location.length-1],
