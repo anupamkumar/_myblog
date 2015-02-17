@@ -14,7 +14,7 @@
 					<div class="form-group"><label for="section">Section name</label>
 					<select name="section" class="form-control">
 						<option value="myhome">Home Page</option>
-						<option value="thought">Thoughts</option>
+						<option value="thoughts">Thoughts</option>
 						<option value="tech">Tech Bubble</option>
 						<option value="games">Games</option>
 						<option value="entertainment">Entertainment</option>

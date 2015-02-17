@@ -1,4 +1,4 @@
-<doc><title>Amazon cloud R us</title><author>Anupam</author><publishdate>Published On 4st March, 2014</publishdate><body>&lt;h3&gt;R statistical analysis language has come to amazon cloud&lt;/h3&gt;
+<doc><title>Amazon cloud R us</title><author>Anupam</author><publishdate>1st march, 2014</publishdate><body>&lt;h3&gt;R statistical analysis language has come to amazon cloud&lt;/h3&gt;
 &lt;p&gt;Developers can now use R to create data-models and perform analytics on cloud. However, the R support on the cloud is minimal and limited.&lt;/p&gt;
 &lt;p&gt;Situation will most likely improve as developers transition more great features into could-R in multiple phases&lt;/p&gt;
 &lt;p&gt;One thing is sure though, amazon does not want just Application developers to work with could services. Amazon want to increase its customer base and hopes that it's AWS services gets adopted by non-CS/non-dev people as well.&lt;/p&gt;

@@ -1,0 +1,23 @@
+<doc><title>Free Hosting woes</title><author>Anupam Kumar</author><publishdate>Published On 16th Feb, 2015</publishdate><body>&lt;p&gt;Free Web-hosting services, the traditional kind, treat their customers like society treat their homeless and I recently got to experience that first hand.&lt;/p&gt;
+
+&lt;p&gt;I am working on a personal project that requires &lt;a href="http://currency-xchange-map.gear.host" target="_new"&gt;some data crunching&lt;/a&gt;. And being a newbie and totally inexperienced with the nuances of web hosting, I started to develop and deployed my app on the Web-hosting provided on which this blog is hosted. And little did I know about the string of incidents that would upset and frustrate me, that would soon follow. &lt;/p&gt;
+
+&lt;p&gt;The app that I wrote required to run a &lt;code&gt;cron jobs&lt;/code&gt; and surprise surprise, when I set up the cron-job and tried to test it, the job would not run. I contacted the &lt;quote&gt;customer care&lt;/quote&gt; and they said that the cron-job was running \&quot;too many times\&quot; and that\'s why it was erroring out.That was a new one. How is that even possible ? I don\'t know and I didn\'t ask. I promptly changed the cron job schedule. But still no cigar.  I asked where I could access the log files. They replied that log files are only accessible to \&quot;Premium members\&quot;. So, I replied back asking them what I could do about it and this is what they actually said.
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/huSqgMj.png?2"/&gt;
+
+
+
+&lt;p&gt;I then began to run the cron jobs on my local machine and wrote a script to copy the files via FTP to the server. It worked fine for a night but next day, I got a &lt;quote&gt;Quota reached&lt;/quote&gt; error. I contacted the staff again and apparently 10,000 file uploads are allowed per day - Upgrade so that you will not have any limits. Fair enough I though. I was thinking of upgrading, because I needed this to work. But decide to wait out. And wouldn\'t you know it. It has been two and half days now and I still have the quote restriction. The 10,000 files is not reset at the end of the day. 
+
+
+
+&lt;p&gt;Thus I began my Sunday searching for a decent alternative and I finally found one and set up everything there.
+
+
+
+&lt;p&gt;The current version of the website is now hosted on the new free host and already I am much happier about their service. I contacted the new service provider and they were more than glad to guide me on how to get the cron jobs running. Finally, I think I found a good host and if my system is stable and all I will consider moving this blog too. 
+
+
+
+</body><references></references></doc>

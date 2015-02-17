@@ -1,9 +1,8 @@
 <list>
-    <title>My Top 10 books</title>
+    <title>Top 10 books</title>
     <author>Anupam Kumar</author>
-    <publishdate>Published On 10th March, 2014</publishdate>
+    <publishdate>1st March, 2014</publishdate>
     <thumbnail_type>Images</thumbnail_type>
-    <thumbnail_w>28%</thumbnail_w>
     <items>
         <item>
             <rank>1</rank>

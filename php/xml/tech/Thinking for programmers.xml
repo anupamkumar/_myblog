@@ -1,0 +1,35 @@
+<doc><title>Thinking for programmers</title><author>Anupam Kumar</author><publishdate>Published On 20th July, 2014</publishdate><body>&lt;p&gt;&lt;b&gt;Dr.Lesie Lamport&lt;/b&gt;, &lt;i&gt;Turing award&lt;/i&gt; winning computer scientist, the inventor of PAXOS algorithm and Byzantine Problem in distributed computing domain, once said that &lt;blockquote&gt;In software development of complex systems, the battle is won or lost before a single line of code is written&lt;/blockquote&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Let us explore this statement. What Dr. Lamport wants to say is that it is paramount to be aware of as much as possible about the problem and the proposed solution before actually implementing the solution. &lt;/p&gt;
+
+
+
+&lt;p&gt;Consider the case where you are required to implement a sorting algorithm. If you are only aware of &lt;a href=http://www.sorting-algorithms.com/bubble-sort&gt;Bubble Sort&lt;/a&gt; algorithm, no matter how well, and efficiently you write the code implementing Bubble Sort, your overall performance of your system will always be slower than a system that uses &lt;a href=http://www.sorting-algorithms.com/quick-sort&gt;Quick Sort&lt;/a&gt;. Why ? Because the algorithm, which is not dependent on the computer code and how you implement dictates the effectiveness of the system. &lt;/p&gt;
+
+
+
+&lt;p&gt;What does this mean ?&lt;/p&gt;
+
+
+
+&lt;p&gt;It means that if a software/system engineer does not take the time to explore, make him/herself aware of the problem, the possible solution, it\'s design, algorithms, data-structures involved, then the piece of software and subsequently the entire system will be of poor quality. Enough time must be spent, flushing out the details of the software and system to be implemented.&lt;/p&gt;
+
+
+
+&lt;p&gt;There are two facets to problem solving&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;Understand and explolre what needs to be done to solve the problem, or in other words understand what the is the best way to go about implementing a solution&lt;/li&gt;&lt;li&gt;Understand and explore how this needs to be done&lt;/li&gt;&lt;/ol&gt; Both steps are important and without deciding on them it\'s a bad idea to begin writing code and actually implementing the system/software solution. &lt;/p&gt;
+
+
+
+&lt;p&gt; Ofcourse, Dr. Lamport does not say that we should do each step exhaustively, like we would if we follow a \&quot;waterflow model\&quot; like approach. Not at all. Infact Dr. Lamport says that we should follow the principles of engineering and iterate over our system. This is where thinking good design plays a vital role. Iterative approach to software development cannot be sustained unless the design of the system is modular and flexible&lt;/p&gt;
+
+
+
+&lt;p&gt;The following is a wonderful talk that Dr. Lamport gives, under the same name, in which he explains the importance of thinking about the system at an abstract level, above the real code level&lt;/p&gt;
+
+
+
+&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=//www.youtube.com/embed/4nhFqf_46ZQ frameborder=\&quot;0\&quot; allowfullscreen&gt;&lt;/iframe&gt;</body><references></references></doc>

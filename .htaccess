@@ -1,1 +1,19 @@
-ErrorDocument 404 /anupamsblog/index.php
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:e7yw1W
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^anupamsblog.net23.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.anupamsblog.net23.net$
+RewriteRule ^php$ http://anupamsblog.net23.net [R=301,L]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE e7yw1W:REDIRECTID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW REDIRECTID:pli690
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^anupamsblog.net23.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.anupamsblog.net23.net$
+RewriteRule ^share$ http://anupamsblog.net23.net/ [R=301,L]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE pli690:REDIRECTID
+
+
+
+ErrorDocument 404 /index.php

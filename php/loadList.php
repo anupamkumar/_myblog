@@ -44,9 +44,9 @@ function getList($index,$style)
 		}
 		else if($style=='Carousel')
 		{
-			$c ='<div id="list-c" class="carousel slide" data-ride="carousel" data-pause="hover" data-wrap="true" data-interval="4000" style="border:2px solid;">';
+			$c ='<br/><br/><button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal" data-local="#list-c">Go FullScreen</button><br/><div id="list-c" class="carousel slide carousel-fit" data-ride="carousel" data-pause="hover" data-wrap="true" data-interval="4000" style="border:2px solid;">';
 			$ci='<ol class="carousel-indicators">';
-			$cinn = '<div class="carousel-inner" style="background: linear-gradient(to right, black , grey); height: 450px"" >';
+			$cinn = '<div class="carousel-inner" style="background: linear-gradient(to right, black , grey);" >';
 			$i=0;
 			foreach($xml->items->item as $item)
 			{	
@@ -61,13 +61,13 @@ function getList($index,$style)
 					if($i==0)
 					{
 						$ci=$ci.'<li data-target="#list-c" data-slide-to="'.$i.'" class="active"></li>';
-						$cinn = $cinn.'<div class="item active"><img src="'.$th.'" class="img-responsive img-thumbnail" style="height: 100%; width:'.$w.'"/><div class="carousel-caption" align="right"><h3>'.$rank.'.&nbsp;'.$name.'</h3>';
+						$cinn = $cinn.'<div class="item active"><img src="'.$th.'" style="height:100%; "/><div class="carousel-caption" align="right"><h3>'.$rank.'.&nbsp;'.$name.'</h3>';
 						$cinn = $cinn.'<p>'.$desc.'</p></div></div>';
 					}
 					else
 					{
 						$ci=$ci.'<li data-target="#list-c" data-slide-to="'.$i.'"></li>';
-						$cinn = $cinn.'<div class="item"><img src="'.$th.'" class="img-responsive img-thumbnail" style="height: 100%; width:'.$w.'"/><div class="carousel-caption" align="right"><h3>'.$rank.'.&nbsp;'.$name.'</h3>';
+						$cinn = $cinn.'<div class="item"><img src="'.$th.'" style="height:100%; "/><div class="carousel-caption" align="right"><h3>'.$rank.'.&nbsp;'.$name.'</h3>';
 						$cinn = $cinn.'<p>'.$desc.'</p></div></div>';
 					}
 					

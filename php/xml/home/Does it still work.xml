@@ -1,4 +1,4 @@
-<doc><title>Does it still work ?</title><author>Anupam </author><publishdate>Published On June 18th, 2014</publishdate><body>&lt;h3&gt;I debugged and fixed the blog site code. &lt;/h3&gt;
+<doc><title>Does it still work ?</title><author>Anupam </author><publishdate>June 18th, 2014</publishdate><body>&lt;h3&gt;I debugged and fixed the blog site code. &lt;/h3&gt;
 
 &lt;p&gt;The original code was really buggy and the code refused to work on firefox. I have got it working on firefox now. I am yet to test it on other browsers.&lt;/p&gt;
 &lt;p&gt;It was a long time coming and greatly overdue. I wrote the original code in great haste. However, now I plan on maintaining and refining the code base of this blog to make it much better. And also plan on updating the blog regularly. So stay tuned.&lt;/p&gt;

@@ -1,0 +1,43 @@
+<doc><title>A Modal Carousel</title><author>Anupam</author><publishdate>September 2, 2014</publishdate><body>&lt;a href=\&quot;http://getbootstrap.com\&quot;&gt;Bootstrap&lt;/a&gt; (the framework on which the frontend of this site is built) has a lot of features that lets a UI newbie like myself do a whole lot more with a lot less effort. (As long as I am not trying to polish the stuff up too much and customize it to beyond recognition). 
+
+
+
+&lt;p&gt;Two really cool UI elements that I really love are 
+
+&lt;ul&gt;&lt;li&gt;Modals&lt;/li&gt;&lt;li&gt;Carousel&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;The modal is that pop up thingy that you get when you try to login or register at any site without actually loading up a register or login page.&lt;/p&gt;
+
+
+
+&lt;p&gt;The carousel is a really neat way to present image backed information to the user.&lt;/p&gt;
+
+
+
+The two elements have totally separate functionality and address separate usecases.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;b&gt;TL;DR - Modal and Carousel elements have no purpose working together and are not intended to work together.&lt;/b&gt;...except they need to work together and I need them to work together when displaying my awesome &lt;a href=\\\&quot;http://anupamsblog.net23.net/lists/\\\&quot; target=\\\&quot;_blank\\\&quot;&gt;Lists&lt;/a&gt; that I made.&lt;/p&gt;
+
+
+
+&lt;p&gt;If you take a look at my lists and turn on carousel mode, you will see that the size of the carousel is insanely huge. That\\\'s because the content shown in the carousel is huge. In such case, the ideal thing to do would be to show the carousel in the entire screen.&lt;/p&gt;
+
+
+
+&lt;p&gt;The ideal way to do this would be to show carousel inside a modal window. But, Bootstrap does not allow this by default.&lt;/p&gt;
+
+
+
+&lt;p&gt;But thankfully, Aurelien Manca has created an extension to bootstrap called &lt;a href=\\\&quot;http://noreiller.github.io/bootstrap-modal-carousel/modal-carousel.html\\\&quot;&gt;Modal carousel&lt;/a&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;To see this in action, just browse through one of my lists and click on \&quot;Go Fullscreen\&quot; button!&lt;/p&gt;
+
+
+
+&lt;p&gt;It\'s a really cool feature and I am glad to have integrated this library to my site. Thank you Mr. Manca for this!&lt;/p&gt;</body><references></references></doc>

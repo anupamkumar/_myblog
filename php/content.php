@@ -155,6 +155,7 @@ $(function(){
 		</div> 
 	</div>
 	<div class="col-lg-3">	
+
 		<div class="aside row" >
 			<div class="list-group">
 				<?php 
@@ -165,6 +166,7 @@ $(function(){
 		  <?php }?>
 				
 			</div>
+			<small class="pull-right"><small>Sorted by Last Updated</small></small>
 		</div>
 	</div>
 </section>

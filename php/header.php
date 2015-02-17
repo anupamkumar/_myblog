@@ -50,13 +50,15 @@ width: 5em;
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="tb">Thought Bubble<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li id='thoughts'><a href="/thoughts/ " class="main-nav"  id='n1'>Random Thoughts</a></li>
+							<li class="divider"></li>
 							<li id='entertainment'><a href="/entertainment/ " class="main-nav"  id='n2'>Entertainment</a></li>
 							<li id='games'><a href="/games/ " class="main-nav"  id='n3'>Games</a></li>
 							<li id='travel'><a href="/travel/ " class="main-nav"  id='n4'>Travel Blog</a></li>
-							<li class="divider"></li>
-							<li id='lists'><a href="/lists/ " class="main-nav"  id='n5'>Lists!</a></li>
+							
+							
 						</ul>
-					</li>					
+					</li>			
+					<li id='lists'><a href="/lists/ " class="main-nav"  id='n5'>Lists!</a></li>		
 					<li id='stuff'><a href="/stuff" class="main-nav"  id='n6'>Stuff I made</a></li>
 					<li id='about'><a href="/about" class="main-nav"  id='n7'>About</a></li>
 				</ul>
@@ -71,7 +73,7 @@ width: 5em;
 		document.getElementById('tb').innerHTML = "Thought Bubble<b class=\"caret\">";
 		$('li').removeClass('active');
 		$('#'+navid).addClass('active');
-		if(navid === 'thoughts' || navid === 'entertainment' || navid === 'games' || navid === 'travel' || navid === 'lists')
+		if(navid === 'thoughts' || navid === 'entertainment' || navid === 'games' || navid === 'travel' )
 		{
 			$('.dropdown').addClass('active');			
 		}
@@ -108,7 +110,7 @@ width: 5em;
 				break;
 			case 'lists':
 				$("#linkedin").attr("src","/assets/img/derpme_lists.jpg");
-				document.getElementById('tb').innerHTML = "Thought Bubble &rarr; Lists!";
+				// document.getElementById('tb').innerHTML = "Thought Bubble &rarr; Lists!";
 				setHeader();
 				//setContent('lists');
 				break;
